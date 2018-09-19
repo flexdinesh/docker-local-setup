@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  mysql-local:
+    build: .
+    environment:
+      MYSQL_ROOT_PASSWORD: toor
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_local_volume:/var/lib/mysql
+    networks:
+      - mysql_local_network
+
+volumes:
+  mysql_local_volume:
+  
+networks:
+  mysql_local_network:
