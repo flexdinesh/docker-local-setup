@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  logstash_local:
+    image: docker.elastic.co/logstash/logstash
+    ports:
+      - "3306:3306"
+    volumes:
+      - pipeline:/usr/share/logstash/pipeline/
+
+volumes:
+  elk_volume:
+  pipeline:
+  
+networks:
+  default:

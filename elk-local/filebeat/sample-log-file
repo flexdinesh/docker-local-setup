@@ -1,0 +1,666 @@
+2018-09-24 07:49:46.003  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 1
+2018-09-24 07:49:46.003  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 1
+2018-09-24 07:49:49.391  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 233, partnerId: 1
+2018-09-24 07:49:49.393  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 232, partnerId: 1
+2018-09-24 07:49:49.393  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 230, partnerId: 1
+2018-09-24 07:49:49.394  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 229, partnerId: 1
+2018-09-24 07:49:49.525  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Blast mommies part 1' did not match our matchers, so skipping report. sibCampaignId: 121, partnerId: 1
+2018-09-24 07:49:49.597  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Campaign name '25_04_2019SundayBrunchNOFIRSTNAME' did not match our matchers, so skipping report. sibCampaignId: 41, partnerId: 1
+2018-09-24 07:49:49.598  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Campaign name '25_04_2019SundayBrunch' did not match our matchers, so skipping report. sibCampaignId: 38, partnerId: 1
+2018-09-24 07:49:49.629  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'April birthdays' did not match our matchers, so skipping report. sibCampaignId: 13, partnerId: 1
+2018-09-24 07:49:49.635  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Test 2' did not match our matchers, so skipping report. sibCampaignId: 6, partnerId: 1
+2018-09-24 07:49:49.636  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Test' did not match our matchers, so skipping report. sibCampaignId: 5, partnerId: 1
+2018-09-24 07:49:49.792  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : 4 SIB Reports synced for partnerId: 1
+2018-09-24 07:49:49.820  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 1
+2018-09-24 07:49:49.820  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 1
+2018-09-24 07:49:51.123  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 1, sibCampaignId: 225 with processId: 1605
+2018-09-24 07:49:51.509  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 1, sibCampaignId: 227 with processId: 1606
+2018-09-24 07:49:51.614  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 1, sibCampaignId: 225
+2018-09-24 07:49:51.614  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 1, sibCampaignId: 225, URL: https://api-export.sendinblue.com/upload/campaign-225[1605]24-09-2018-09-49-511812368874.csv
+2018-09-24 07:49:51.932  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 1, sibCampaignId: 227
+2018-09-24 07:49:51.932  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 1, sibCampaignId: 227, URL: https://api-export.sendinblue.com/upload/campaign-227[1606]24-09-2018-09-49-511350713342.csv
+2018-09-24 07:49:52.050  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 1, sibCampaignId: 226 with processId: 1607
+2018-09-24 07:49:52.459  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 1, sibCampaignId: 228 with processId: 1608
+2018-09-24 07:49:52.459  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : 4 SIB Reports requested for recipient list for partnerId: 1
+2018-09-24 07:49:52.461  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 1, sibCampaignId: 226
+2018-09-24 07:49:52.462  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 1, sibCampaignId: 226, URL: https://api-export.sendinblue.com/upload/campaign-226[1607]24-09-2018-09-49-511580142649.csv
+2018-09-24 07:49:52.814  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 1, sibCampaignId: 228
+2018-09-24 07:49:52.814  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 1, sibCampaignId: 228, URL: https://api-export.sendinblue.com/upload/campaign-228[1608]24-09-2018-09-49-52789455821.csv
+2018-09-24 07:49:52.823  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 1, sibCampaignId: 227
+2018-09-24 07:49:52.823  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 1, sibCampaignId: 227
+2018-09-24 07:49:52.824  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 9 emails for partnerId: 1, sibCampaignId: 227
+2018-09-24 07:49:52.829  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 1, sibCampaignId: 227
+2018-09-24 07:49:53.010  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 1, sibCampaignId: 225
+2018-09-24 07:49:53.010  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 1, sibCampaignId: 225
+2018-09-24 07:49:53.011  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 12 emails for partnerId: 1, sibCampaignId: 225
+2018-09-24 07:49:53.015  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 1, sibCampaignId: 225
+2018-09-24 07:49:53.348  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 1, sibCampaignId: 226
+2018-09-24 07:49:53.348  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 1, sibCampaignId: 226
+2018-09-24 07:49:53.348  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 10 emails for partnerId: 1, sibCampaignId: 226
+2018-09-24 07:49:53.353  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 1, sibCampaignId: 226
+2018-09-24 07:49:53.722  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 1, sibCampaignId: 228
+2018-09-24 07:49:53.722  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 1, sibCampaignId: 228
+2018-09-24 07:49:53.722  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 10 emails for partnerId: 1, sibCampaignId: 228
+2018-09-24 07:49:53.728  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 1, sibCampaignId: 228
+2018-09-24 07:49:55.972  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 2
+2018-09-24 07:49:55.972  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 2
+2018-09-24 07:49:58.159  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 73, partnerId: 2
+2018-09-24 07:49:58.159  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 72, partnerId: 2
+2018-09-24 07:49:58.160  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 71, partnerId: 2
+2018-09-24 07:49:58.160  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 70, partnerId: 2
+2018-09-24 07:49:58.215  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Campaign name '22_08_lunchspecial' did not match our matchers, so skipping report. sibCampaignId: 39, partnerId: 2
+2018-09-24 07:49:58.304  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'test miss you' did not match our matchers, so skipping report. sibCampaignId: 1, partnerId: 2
+2018-09-24 07:49:58.370  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : 6 SIB Reports synced for partnerId: 2
+2018-09-24 07:49:58.534  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 2
+2018-09-24 07:49:58.534  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 2
+2018-09-24 07:49:59.038 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 5
+2018-09-24 07:49:59.714 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 32
+2018-09-24 07:50:00.085 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 34
+2018-09-24 07:50:01.463 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 60
+2018-09-24 07:50:01.889 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 62
+2018-09-24 07:50:11.892 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Something went wrong while requesting SIB Campaign Recipient List for partnerId: 2, sibCampaignId: 64
+2018-09-24 07:50:20.185  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 2, sibCampaignId: 66 with processId: 205
+2018-09-24 07:50:21.324  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 2, sibCampaignId: 68 with processId: 206
+2018-09-24 07:50:21.591  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 2, sibCampaignId: 64
+2018-09-24 07:50:21.591  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 2, sibCampaignId: 64, URL: https://api-export.sendinblue.com/upload/campaign-64[205]24-09-2018-09-50-211086007856.csv
+2018-09-24 07:50:21.739  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 2, sibCampaignId: 66
+2018-09-24 07:50:21.739  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 2, sibCampaignId: 66, URL: https://api-export.sendinblue.com/upload/campaign-66[205]24-09-2018-09-50-211824484859.csv
+2018-09-24 07:50:22.555  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 2, sibCampaignId: 64
+2018-09-24 07:50:22.555  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 2, sibCampaignId: 64
+2018-09-24 07:50:22.556  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 2, sibCampaignId: 64
+2018-09-24 07:50:22.561  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 2, sibCampaignId: 64
+2018-09-24 07:50:22.574 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 27
+2018-09-24 07:50:22.618  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 2, sibCampaignId: 66
+2018-09-24 07:50:22.618  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 2, sibCampaignId: 66
+2018-09-24 07:50:22.618  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 2, sibCampaignId: 66
+2018-09-24 07:50:22.622  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 2, sibCampaignId: 66
+2018-09-24 07:50:22.866  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 2, sibCampaignId: 68
+2018-09-24 07:50:22.866  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 2, sibCampaignId: 68, URL: https://api-export.sendinblue.com/upload/campaign-68[206]24-09-2018-09-50-221651108152.csv
+2018-09-24 07:50:23.051  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 2, sibCampaignId: 68
+2018-09-24 07:50:23.052  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 2, sibCampaignId: 68
+2018-09-24 07:50:23.052  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 4 emails for partnerId: 2, sibCampaignId: 68
+2018-09-24 07:50:23.056  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 2, sibCampaignId: 68
+2018-09-24 07:50:23.405 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 30
+2018-09-24 07:50:23.800 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 38
+2018-09-24 07:50:24.411 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 48
+2018-09-24 07:50:25.166 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 50
+2018-09-24 07:50:27.713 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 54
+2018-09-24 07:50:28.141 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 63
+2018-09-24 07:50:28.583  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 2, sibCampaignId: 65 with processId: 207
+2018-09-24 07:50:29.811  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 2, sibCampaignId: 67 with processId: 208
+2018-09-24 07:50:30.394  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 2, sibCampaignId: 65
+2018-09-24 07:50:30.394  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 2, sibCampaignId: 65, URL: https://api-export.sendinblue.com/upload/campaign-65[207]24-09-2018-09-50-2951083937.csv
+2018-09-24 07:50:30.447  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 2, sibCampaignId: 67
+2018-09-24 07:50:30.447  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 2, sibCampaignId: 67, URL: https://api-export.sendinblue.com/upload/campaign-67[208]24-09-2018-09-50-291304483487.csv
+2018-09-24 07:50:31.265 ERROR 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 2, sibCampaignId: 69
+2018-09-24 07:50:31.265  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : 17 SIB Reports requested for recipient list for partnerId: 2
+2018-09-24 07:50:31.322  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 2, sibCampaignId: 65
+2018-09-24 07:50:31.322  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 2, sibCampaignId: 65
+2018-09-24 07:50:31.322  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 2, sibCampaignId: 65
+2018-09-24 07:50:31.327  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 2, sibCampaignId: 65
+2018-09-24 07:50:31.347  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 2, sibCampaignId: 67
+2018-09-24 07:50:31.348  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 2, sibCampaignId: 67
+2018-09-24 07:50:31.348  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 2, sibCampaignId: 67
+2018-09-24 07:50:31.352  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 2, sibCampaignId: 67
+2018-09-24 07:50:37.636  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 3
+2018-09-24 07:50:37.636  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 3
+2018-09-24 07:50:40.909  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 84, partnerId: 3
+2018-09-24 07:50:40.910  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 83, partnerId: 3
+2018-09-24 07:50:40.910  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 82, partnerId: 3
+2018-09-24 07:50:41.095  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : 6 SIB Reports synced for partnerId: 3
+2018-09-24 07:50:41.235  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 3
+2018-09-24 07:50:41.235  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 3
+2018-09-24 07:50:43.388 ERROR 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 3, sibCampaignId: 35
+2018-09-24 07:50:43.981  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 3, sibCampaignId: 76 with processId: 226
+2018-09-24 07:50:44.289  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 3, sibCampaignId: 76
+2018-09-24 07:50:44.289  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 3, sibCampaignId: 76, URL: https://api-export.sendinblue.com/upload/campaign-76[226]24-09-2018-09-50-43158920698.csv
+2018-09-24 07:50:44.668 ERROR 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 3, sibCampaignId: 78
+2018-09-24 07:50:45.076  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 3, sibCampaignId: 80 with processId: 227
+2018-09-24 07:50:45.176  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 3, sibCampaignId: 76
+2018-09-24 07:50:45.176  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 3, sibCampaignId: 76
+2018-09-24 07:50:45.176  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 7 emails for partnerId: 3, sibCampaignId: 76
+2018-09-24 07:50:45.181  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 3, sibCampaignId: 76
+2018-09-24 07:50:45.471  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 3, sibCampaignId: 80
+2018-09-24 07:50:45.471  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 3, sibCampaignId: 80, URL: https://api-export.sendinblue.com/upload/campaign-80[227]24-09-2018-09-50-442084260215.csv
+2018-09-24 07:50:45.474 ERROR 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 3, sibCampaignId: 26
+2018-09-24 07:50:45.659  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 3, sibCampaignId: 80
+2018-09-24 07:50:45.659  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 3, sibCampaignId: 80
+2018-09-24 07:50:45.659  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 3, sibCampaignId: 80
+2018-09-24 07:50:45.663  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 3, sibCampaignId: 80
+2018-09-24 07:50:45.849 ERROR 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 3, sibCampaignId: 44
+2018-09-24 07:50:46.228  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 3, sibCampaignId: 77 with processId: 228
+2018-09-24 07:50:46.526  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 3, sibCampaignId: 77
+2018-09-24 07:50:46.526  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 3, sibCampaignId: 77, URL: https://api-export.sendinblue.com/upload/campaign-77[228]24-09-2018-09-50-462024642541.csv
+2018-09-24 07:50:46.643  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 3, sibCampaignId: 79 with processId: 229
+2018-09-24 07:50:46.718  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 3, sibCampaignId: 77
+2018-09-24 07:50:46.719  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 3, sibCampaignId: 77
+2018-09-24 07:50:46.719  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 7 emails for partnerId: 3, sibCampaignId: 77
+2018-09-24 07:50:46.726  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 3, sibCampaignId: 77
+2018-09-24 07:50:46.935  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 3, sibCampaignId: 79
+2018-09-24 07:50:46.935  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 3, sibCampaignId: 79, URL: https://api-export.sendinblue.com/upload/campaign-79[229]24-09-2018-09-50-461168124127.csv
+2018-09-24 07:50:47.123  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 3, sibCampaignId: 79
+2018-09-24 07:50:47.123  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 3, sibCampaignId: 79
+2018-09-24 07:50:47.124  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 3, sibCampaignId: 79
+2018-09-24 07:50:47.128  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 3, sibCampaignId: 79
+2018-09-24 07:50:47.366  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 3, sibCampaignId: 81 with processId: 230
+2018-09-24 07:50:47.366  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : 9 SIB Reports requested for recipient list for partnerId: 3
+2018-09-24 07:50:48.842  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 3, sibCampaignId: 81
+2018-09-24 07:50:48.842  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 3, sibCampaignId: 81, URL: https://api-export.sendinblue.com/upload/campaign-81[230]24-09-2018-09-50-481793235106.csv
+2018-09-24 07:50:49.030  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 3, sibCampaignId: 81
+2018-09-24 07:50:49.030  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 3, sibCampaignId: 81
+2018-09-24 07:50:49.030  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 5 emails for partnerId: 3, sibCampaignId: 81
+2018-09-24 07:50:49.035  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 3, sibCampaignId: 81
+2018-09-24 07:51:05.350  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 4
+2018-09-24 07:51:05.350  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 4
+2018-09-24 07:51:09.794  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 87, partnerId: 4
+2018-09-24 07:51:09.795  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 86, partnerId: 4
+2018-09-24 07:51:09.796  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 85, partnerId: 4
+2018-09-24 07:51:09.878  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'World Cup 2' did not match our matchers, so skipping report. sibCampaignId: 20, partnerId: 4
+2018-09-24 07:51:09.879  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'World Cup 1' did not match our matchers, so skipping report. sibCampaignId: 19, partnerId: 4
+2018-09-24 07:51:09.884  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 11_06' did not match our matchers, so skipping report. sibCampaignId: 13, partnerId: 4
+2018-09-24 07:51:09.885  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 08_06' did not match our matchers, so skipping report. sibCampaignId: 11, partnerId: 4
+2018-09-24 07:51:09.885  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 07_06' did not match our matchers, so skipping report. sibCampaignId: 9, partnerId: 4
+2018-09-24 07:51:09.886  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 06_06' did not match our matchers, so skipping report. sibCampaignId: 8, partnerId: 4
+2018-09-24 07:51:09.945  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : 3 SIB Reports synced for partnerId: 4
+2018-09-24 07:51:10.115  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 4
+2018-09-24 07:51:10.115  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 4
+2018-09-24 07:51:15.539 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 35
+2018-09-24 07:51:17.183 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 51
+2018-09-24 07:51:17.890 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 53
+2018-09-24 07:51:20.105 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 64
+2018-09-24 07:51:22.750 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 68
+2018-09-24 07:51:26.096 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 70
+2018-09-24 07:51:27.947 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 80
+2018-09-24 07:51:29.099 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 82
+2018-09-24 07:51:32.076  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 4, sibCampaignId: 83 with processId: 172
+2018-09-24 07:51:32.927 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 24
+2018-09-24 07:51:33.707 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 43
+2018-09-24 07:51:34.441  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 4, sibCampaignId: 83
+2018-09-24 07:51:34.441  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 4, sibCampaignId: 83, URL: https://api-export.sendinblue.com/upload/campaign-83[172]24-09-2018-09-51-34563841129.csv
+2018-09-24 07:51:35.017 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 52
+2018-09-24 07:51:35.352  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 4, sibCampaignId: 83
+2018-09-24 07:51:35.352  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 4, sibCampaignId: 83
+2018-09-24 07:51:35.353  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 4, sibCampaignId: 83
+2018-09-24 07:51:35.358  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 4, sibCampaignId: 83
+2018-09-24 07:51:36.393 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 60
+2018-09-24 07:51:36.872 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 62
+2018-09-24 07:51:37.720 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 67
+2018-09-24 07:51:40.685  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 4, sibCampaignId: 84 with processId: 173
+2018-09-24 07:51:40.685  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : 16 SIB Reports requested for recipient list for partnerId: 4
+2018-09-24 07:51:42.607  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 4, sibCampaignId: 84
+2018-09-24 07:51:42.608  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 4, sibCampaignId: 84, URL: https://api-export.sendinblue.com/upload/campaign-84[173]24-09-2018-09-51-42443640101.csv
+2018-09-24 07:51:43.512  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 4, sibCampaignId: 84
+2018-09-24 07:51:43.512  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 4, sibCampaignId: 84
+2018-09-24 07:51:43.513  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 4, sibCampaignId: 84
+2018-09-24 07:51:43.518  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 4, sibCampaignId: 84
+2018-09-24 07:51:56.333  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 4
+2018-09-24 07:51:56.333  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 4
+2018-09-24 07:51:58.875  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 87, partnerId: 4
+2018-09-24 07:51:58.876  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 86, partnerId: 4
+2018-09-24 07:51:58.876  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 85, partnerId: 4
+2018-09-24 07:51:58.961  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'World Cup 2' did not match our matchers, so skipping report. sibCampaignId: 20, partnerId: 4
+2018-09-24 07:51:58.962  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'World Cup 1' did not match our matchers, so skipping report. sibCampaignId: 19, partnerId: 4
+2018-09-24 07:51:58.967  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 11_06' did not match our matchers, so skipping report. sibCampaignId: 13, partnerId: 4
+2018-09-24 07:51:58.968  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 08_06' did not match our matchers, so skipping report. sibCampaignId: 11, partnerId: 4
+2018-09-24 07:51:58.968  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 07_06' did not match our matchers, so skipping report. sibCampaignId: 9, partnerId: 4
+2018-09-24 07:51:58.969  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Kids Menu blast 06_06' did not match our matchers, so skipping report. sibCampaignId: 8, partnerId: 4
+2018-09-24 07:51:59.021  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : 0 SIB Reports synced for partnerId: 4
+2018-09-24 07:51:59.037  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 4
+2018-09-24 07:51:59.037  INFO 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 4
+2018-09-24 07:51:59.938 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 35
+2018-09-24 07:52:00.798 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 51
+2018-09-24 07:52:02.354 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 53
+2018-09-24 07:52:04.163 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 64
+2018-09-24 07:52:10.505 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 68
+2018-09-24 07:52:13.937 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 70
+2018-09-24 07:52:14.817 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 80
+2018-09-24 07:52:16.444 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 82
+2018-09-24 07:52:17.791 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 24
+2018-09-24 07:52:18.880 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 43
+2018-09-24 07:52:19.695 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 52
+2018-09-24 07:52:20.804 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 60
+2018-09-24 07:52:21.627 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 62
+2018-09-24 07:52:22.446 ERROR 16587 --- [nio-5000-exec-5] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 4, sibCampaignId: 67
+2018-09-24 07:52:22.447  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : 14 SIB Reports requested for recipient list for partnerId: 4
+2018-09-24 07:52:28.385  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 5
+2018-09-24 07:52:28.385  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 5
+2018-09-24 07:52:30.557  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 56, partnerId: 5
+2018-09-24 07:52:30.559  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 55, partnerId: 5
+2018-09-24 07:52:30.645  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Birthday campaign July 2017' did not match our matchers, so skipping report. sibCampaignId: 6, partnerId: 5
+2018-09-24 07:52:30.687  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : 3 SIB Reports synced for partnerId: 5
+2018-09-24 07:52:30.706  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 5
+2018-09-24 07:52:30.706  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 5
+2018-09-24 07:52:31.100 ERROR 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 5, sibCampaignId: 22
+2018-09-24 07:52:31.524 ERROR 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 5, sibCampaignId: 46
+2018-09-24 07:52:31.960  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 5, sibCampaignId: 52 with processId: 146
+2018-09-24 07:52:32.286  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 5, sibCampaignId: 52
+2018-09-24 07:52:32.286  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 5, sibCampaignId: 52, URL: https://api-export.sendinblue.com/upload/campaign-52[146]24-09-2018-09-52-31326411939.csv
+2018-09-24 07:52:32.597  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 5, sibCampaignId: 53 with processId: 147
+2018-09-24 07:52:32.921  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 5, sibCampaignId: 53
+2018-09-24 07:52:32.921  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 5, sibCampaignId: 53, URL: https://api-export.sendinblue.com/upload/campaign-53[147]24-09-2018-09-52-32304581189.csv
+2018-09-24 07:52:33.000  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 5, sibCampaignId: 54 with processId: 148
+2018-09-24 07:52:33.000  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : 5 SIB Reports requested for recipient list for partnerId: 5
+2018-09-24 07:52:33.231  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 5, sibCampaignId: 52
+2018-09-24 07:52:33.232  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 5, sibCampaignId: 52
+2018-09-24 07:52:33.232  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 3 emails for partnerId: 5, sibCampaignId: 52
+2018-09-24 07:52:33.237  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 5, sibCampaignId: 52
+2018-09-24 07:52:33.302  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 5, sibCampaignId: 54
+2018-09-24 07:52:33.302  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 5, sibCampaignId: 54, URL: https://api-export.sendinblue.com/upload/campaign-54[148]24-09-2018-09-52-321260525225.csv
+2018-09-24 07:52:33.490  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 5, sibCampaignId: 54
+2018-09-24 07:52:33.490  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 5, sibCampaignId: 54
+2018-09-24 07:52:33.490  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 5, sibCampaignId: 54
+2018-09-24 07:52:33.496  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 5, sibCampaignId: 54
+2018-09-24 07:52:33.833  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 5, sibCampaignId: 53
+2018-09-24 07:52:33.833  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 5, sibCampaignId: 53
+2018-09-24 07:52:33.833  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 5, sibCampaignId: 53
+2018-09-24 07:52:33.837  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 5, sibCampaignId: 53
+2018-09-24 07:52:37.218  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 6
+2018-09-24 07:52:37.218  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 6
+2018-09-24 07:52:39.106  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 115, partnerId: 6
+2018-09-24 07:52:39.107  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 114, partnerId: 6
+2018-09-24 07:52:39.107  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 113, partnerId: 6
+2018-09-24 07:52:39.108  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 112, partnerId: 6
+2018-09-24 07:52:39.109  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 109, partnerId: 6
+2018-09-24 07:52:39.111  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 108, partnerId: 6
+2018-09-24 07:52:39.123  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Newsletter Test 3' did not match our matchers, so skipping report. sibCampaignId: 105, partnerId: 6
+2018-09-24 07:52:39.127  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Newsletter Test 2' did not match our matchers, so skipping report. sibCampaignId: 104, partnerId: 6
+2018-09-24 07:52:39.131  INFO 16587 --- [nio-5000-exec-7] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'BINOMIO_NEWSLETTER_20180920' did not match our matchers, so skipping report. sibCampaignId: 101, partnerId: 6
+2018-09-24 07:52:39.389  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : 6 SIB Reports synced for partnerId: 6
+2018-09-24 07:52:39.509  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 6
+2018-09-24 07:52:39.509  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 6
+2018-09-24 07:52:39.948  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 6, sibCampaignId: 99 with processId: 378
+2018-09-24 07:52:40.367  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 6, sibCampaignId: 102 with processId: 379
+2018-09-24 07:52:40.413  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 6, sibCampaignId: 99
+2018-09-24 07:52:40.414  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 6, sibCampaignId: 99, URL: https://api-export.sendinblue.com/upload/campaign-99[378]24-09-2018-09-52-391861000929.csv
+2018-09-24 07:52:40.687  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 6, sibCampaignId: 102
+2018-09-24 07:52:40.687  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 6, sibCampaignId: 102, URL: https://api-export.sendinblue.com/upload/campaign-102[379]24-09-2018-09-52-40237716774.csv
+2018-09-24 07:52:40.772  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 6, sibCampaignId: 106 with processId: 380
+2018-09-24 07:52:41.111  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 6, sibCampaignId: 106
+2018-09-24 07:52:41.111  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 6, sibCampaignId: 106, URL: https://api-export.sendinblue.com/upload/campaign-106[380]24-09-2018-09-52-401717150316.csv
+2018-09-24 07:52:41.319  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 6, sibCampaignId: 99
+2018-09-24 07:52:41.319  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 6, sibCampaignId: 99
+2018-09-24 07:52:41.319  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 12 emails for partnerId: 6, sibCampaignId: 99
+2018-09-24 07:52:41.325  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 6, sibCampaignId: 99
+2018-09-24 07:52:41.565  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 6, sibCampaignId: 100 with processId: 381
+2018-09-24 07:52:41.578  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 6, sibCampaignId: 102
+2018-09-24 07:52:41.578  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 6, sibCampaignId: 102
+2018-09-24 07:52:41.578  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 6, sibCampaignId: 102
+2018-09-24 07:52:41.583  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 6, sibCampaignId: 102
+2018-09-24 07:52:41.993  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 6, sibCampaignId: 106
+2018-09-24 07:52:41.993  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 6, sibCampaignId: 106
+2018-09-24 07:52:41.993  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 3 emails for partnerId: 6, sibCampaignId: 106
+2018-09-24 07:52:41.998  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 6, sibCampaignId: 106
+2018-09-24 07:52:43.545  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 6, sibCampaignId: 103 with processId: 382
+2018-09-24 07:52:43.965  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 6, sibCampaignId: 107 with processId: 383
+2018-09-24 07:52:43.965  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : 6 SIB Reports requested for recipient list for partnerId: 6
+2018-09-24 07:52:44.187  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 6, sibCampaignId: 103
+2018-09-24 07:52:44.187  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 6, sibCampaignId: 103, URL: https://api-export.sendinblue.com/upload/campaign-103[382]24-09-2018-09-52-43434821776.csv
+2018-09-24 07:52:44.374  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 6, sibCampaignId: 103
+2018-09-24 07:52:44.374  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 6, sibCampaignId: 103
+2018-09-24 07:52:44.374  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 6 emails for partnerId: 6, sibCampaignId: 103
+2018-09-24 07:52:44.379  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 6, sibCampaignId: 103
+2018-09-24 07:52:44.633  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 6, sibCampaignId: 100
+2018-09-24 07:52:44.633  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 6, sibCampaignId: 100, URL: https://api-export.sendinblue.com/upload/campaign-100[381]24-09-2018-09-52-43543265560.csv
+2018-09-24 07:52:44.832  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 6, sibCampaignId: 100
+2018-09-24 07:52:44.832  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 6, sibCampaignId: 100
+2018-09-24 07:52:44.833  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 8 emails for partnerId: 6, sibCampaignId: 100
+2018-09-24 07:52:44.837  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 6, sibCampaignId: 100
+2018-09-24 07:52:44.897  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 6, sibCampaignId: 107
+2018-09-24 07:52:44.897  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 6, sibCampaignId: 107, URL: https://api-export.sendinblue.com/upload/campaign-107[383]24-09-2018-09-52-431600138727.csv
+2018-09-24 07:52:45.084  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 6, sibCampaignId: 107
+2018-09-24 07:52:45.084  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 6, sibCampaignId: 107
+2018-09-24 07:52:45.085  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 5 emails for partnerId: 6, sibCampaignId: 107
+2018-09-24 07:52:45.089  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 6, sibCampaignId: 107
+2018-09-24 07:52:48.159  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 7
+2018-09-24 07:52:48.159  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 7
+2018-09-24 07:52:49.093  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : 0 SIB Reports synced for partnerId: 7
+2018-09-24 07:52:49.339  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 7
+2018-09-24 07:52:49.339  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 7
+2018-09-24 07:52:49.341  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : 0 SIB Reports requested for recipient list for partnerId: 7
+2018-09-24 07:53:01.125  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 8
+2018-09-24 07:53:01.125  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 8
+2018-09-24 07:53:04.199  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 77, partnerId: 8
+2018-09-24 07:53:04.199  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 76, partnerId: 8
+2018-09-24 07:53:04.200  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 75, partnerId: 8
+2018-09-24 07:53:04.200  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 74, partnerId: 8
+2018-09-24 07:53:04.277  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Birthday Campaign July 2017' did not match our matchers, so skipping report. sibCampaignId: 8, partnerId: 8
+2018-09-24 07:53:04.353  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : 5 SIB Reports synced for partnerId: 8
+2018-09-24 07:53:04.393  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 8
+2018-09-24 07:53:04.393  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 8
+2018-09-24 07:53:06.235 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 55
+2018-09-24 07:53:07.533 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 57
+2018-09-24 07:53:09.067 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 61
+2018-09-24 07:53:10.164 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 65
+2018-09-24 07:53:11.544 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 67
+2018-09-24 07:53:11.937  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 8, sibCampaignId: 69 with processId: 130
+2018-09-24 07:53:12.313 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 71
+2018-09-24 07:53:12.700  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 8, sibCampaignId: 73 with processId: 131
+2018-09-24 07:53:13.021  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 8, sibCampaignId: 69
+2018-09-24 07:53:13.021  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 8, sibCampaignId: 69, URL: https://api-export.sendinblue.com/upload/campaign-69[130]24-09-2018-09-53-12628674426.csv
+2018-09-24 07:53:13.075 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 45
+2018-09-24 07:53:13.448 ERROR 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 8, sibCampaignId: 50
+2018-09-24 07:53:13.904  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 8, sibCampaignId: 70 with processId: 132
+2018-09-24 07:53:13.949  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 8, sibCampaignId: 69
+2018-09-24 07:53:13.949  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 8, sibCampaignId: 69
+2018-09-24 07:53:13.950  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 4 emails for partnerId: 8, sibCampaignId: 69
+2018-09-24 07:53:13.955  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 8, sibCampaignId: 69
+2018-09-24 07:53:14.305  INFO 16587 --- [nio-5000-exec-8] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 8, sibCampaignId: 72 with processId: 133
+2018-09-24 07:53:14.305  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : 12 SIB Reports requested for recipient list for partnerId: 8
+2018-09-24 07:53:14.415  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 8, sibCampaignId: 73
+2018-09-24 07:53:14.415  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 8, sibCampaignId: 73, URL: https://api-export.sendinblue.com/upload/campaign-73[131]24-09-2018-09-53-13924891301.csv
+2018-09-24 07:53:14.616  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 8, sibCampaignId: 73
+2018-09-24 07:53:14.616  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 8, sibCampaignId: 73
+2018-09-24 07:53:14.616  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 8, sibCampaignId: 73
+2018-09-24 07:53:14.621  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 8, sibCampaignId: 73
+2018-09-24 07:53:14.721  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 8, sibCampaignId: 70
+2018-09-24 07:53:14.721  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 8, sibCampaignId: 70, URL: https://api-export.sendinblue.com/upload/campaign-70[132]24-09-2018-09-53-141564418526.csv
+2018-09-24 07:53:14.942  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 8, sibCampaignId: 70
+2018-09-24 07:53:14.942  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 8, sibCampaignId: 70
+2018-09-24 07:53:14.942  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 8 emails for partnerId: 8, sibCampaignId: 70
+2018-09-24 07:53:14.947  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 8, sibCampaignId: 70
+2018-09-24 07:53:15.003  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 8, sibCampaignId: 72
+2018-09-24 07:53:15.003  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 8, sibCampaignId: 72, URL: https://api-export.sendinblue.com/upload/campaign-72[133]24-09-2018-09-53-14481973906.csv
+2018-09-24 07:53:15.199  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 8, sibCampaignId: 72
+2018-09-24 07:53:15.199  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 8, sibCampaignId: 72
+2018-09-24 07:53:15.200  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 8, sibCampaignId: 72
+2018-09-24 07:53:15.204  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 8, sibCampaignId: 72
+2018-09-24 07:53:26.380  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 9
+2018-09-24 07:53:26.380  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 9
+2018-09-24 07:53:27.239  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 36, partnerId: 9
+2018-09-24 07:53:27.315  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : 2 SIB Reports synced for partnerId: 9
+2018-09-24 07:53:27.436  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 9
+2018-09-24 07:53:27.436  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 9
+2018-09-24 07:53:27.845 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 9, sibCampaignId: 5
+2018-09-24 07:53:28.218 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 9, sibCampaignId: 13
+2018-09-24 07:53:28.630 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 9, sibCampaignId: 28
+2018-09-24 07:53:29.001 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 9, sibCampaignId: 29
+2018-09-24 07:53:29.382  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 9, sibCampaignId: 31 with processId: 84
+2018-09-24 07:53:29.707  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 9, sibCampaignId: 31
+2018-09-24 07:53:29.707  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 9, sibCampaignId: 31, URL: https://api-export.sendinblue.com/upload/campaign-31[84]24-09-2018-09-53-2990230207.csv
+2018-09-24 07:53:29.813  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 9, sibCampaignId: 33 with processId: 85
+2018-09-24 07:53:30.171  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 9, sibCampaignId: 33
+2018-09-24 07:53:30.171  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 9, sibCampaignId: 33, URL: https://api-export.sendinblue.com/upload/campaign-33[85]24-09-2018-09-53-29294767505.csv
+2018-09-24 07:53:30.207 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 9, sibCampaignId: 34
+2018-09-24 07:53:30.207  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : 7 SIB Reports requested for recipient list for partnerId: 9
+2018-09-24 07:53:30.579  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 9, sibCampaignId: 31
+2018-09-24 07:53:30.579  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 9, sibCampaignId: 31
+2018-09-24 07:53:30.580  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 9, sibCampaignId: 31
+2018-09-24 07:53:30.585  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 9, sibCampaignId: 31
+2018-09-24 07:53:31.077  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 9, sibCampaignId: 33
+2018-09-24 07:53:31.077  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 9, sibCampaignId: 33
+2018-09-24 07:53:31.077  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 6 emails for partnerId: 9, sibCampaignId: 33
+2018-09-24 07:53:31.081  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 9, sibCampaignId: 33
+2018-09-24 07:54:21.942  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 10
+2018-09-24 07:54:21.942  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 10
+2018-09-24 07:54:24.065  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 15, partnerId: 10
+2018-09-24 07:54:24.082  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'Birthday Campaign July' did not match our matchers, so skipping report. sibCampaignId: 1, partnerId: 10
+2018-09-24 07:54:24.097  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : 2 SIB Reports synced for partnerId: 10
+2018-09-24 07:54:24.117  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 10
+2018-09-24 07:54:24.117  INFO 16587 --- [nio-5000-exec-6] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 10
+2018-09-24 07:54:24.512 ERROR 16587 --- [nio-5000-exec-6] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 10, sibCampaignId: 5
+2018-09-24 07:54:25.176 ERROR 16587 --- [nio-5000-exec-6] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 10, sibCampaignId: 9
+2018-09-24 07:54:25.597 ERROR 16587 --- [nio-5000-exec-6] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 10, sibCampaignId: 12
+2018-09-24 07:54:26.291 ERROR 16587 --- [nio-5000-exec-6] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 10, sibCampaignId: 13
+2018-09-24 07:54:27.827  INFO 16587 --- [nio-5000-exec-6] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 10, sibCampaignId: 14 with processId: 23
+2018-09-24 07:54:27.827  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : 5 SIB Reports requested for recipient list for partnerId: 10
+2018-09-24 07:54:28.175  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 10, sibCampaignId: 14
+2018-09-24 07:54:28.175  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 10, sibCampaignId: 14, URL: https://api-export.sendinblue.com/upload/campaign-14[23]24-09-2018-09-54-271142364433.csv
+2018-09-24 07:54:29.081  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 10, sibCampaignId: 14
+2018-09-24 07:54:29.081  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 10, sibCampaignId: 14
+2018-09-24 07:54:29.082  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 10, sibCampaignId: 14
+2018-09-24 07:54:29.087  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 10, sibCampaignId: 14
+2018-09-24 07:54:46.952  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 11
+2018-09-24 07:54:46.952  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 11
+2018-09-24 07:54:49.884  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 56, partnerId: 11
+2018-09-24 07:54:49.885  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 55, partnerId: 11
+2018-09-24 07:54:49.885  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 54, partnerId: 11
+2018-09-24 07:54:49.886  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 53, partnerId: 11
+2018-09-24 07:54:50.024  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : 6 SIB Reports synced for partnerId: 11
+2018-09-24 07:54:50.070  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 11
+2018-09-24 07:54:50.070  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 11
+2018-09-24 07:54:50.699 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 12
+2018-09-24 07:54:51.304 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 27
+2018-09-24 07:54:51.646 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 35
+2018-09-24 07:54:52.031 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 43
+2018-09-24 07:54:52.660  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 11, sibCampaignId: 47 with processId: 76
+2018-09-24 07:54:53.040 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 49
+2018-09-24 07:54:53.428  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 11, sibCampaignId: 51 with processId: 77
+2018-09-24 07:54:53.836 ERROR 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 28
+2018-09-24 07:54:54.189  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 11, sibCampaignId: 48 with processId: 78
+2018-09-24 07:54:54.250  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 11, sibCampaignId: 47
+2018-09-24 07:54:54.250  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 11, sibCampaignId: 47, URL: https://api-export.sendinblue.com/upload/campaign-47[76]24-09-2018-09-54-52527286195.csv
+2018-09-24 07:54:54.274  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 11, sibCampaignId: 51
+2018-09-24 07:54:54.274  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 11, sibCampaignId: 51, URL: https://api-export.sendinblue.com/upload/campaign-51[77]24-09-2018-09-54-53108567598.csv
+2018-09-24 07:54:54.537  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 11, sibCampaignId: 50 with processId: 79
+2018-09-24 07:54:54.541  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 11, sibCampaignId: 48
+2018-09-24 07:54:54.541  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 11, sibCampaignId: 48, URL: https://api-export.sendinblue.com/upload/campaign-48[78]24-09-2018-09-54-541242585592.csv
+2018-09-24 07:54:54.872  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 11, sibCampaignId: 50
+2018-09-24 07:54:54.873  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 11, sibCampaignId: 50, URL: https://api-export.sendinblue.com/upload/campaign-50[79]24-09-2018-09-54-54608301210.csv
+2018-09-24 07:54:54.941  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 11, sibCampaignId: 52 with processId: 80
+2018-09-24 07:54:54.942  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : 11 SIB Reports requested for recipient list for partnerId: 11
+2018-09-24 07:54:55.215  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 11, sibCampaignId: 51
+2018-09-24 07:54:55.215  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 11, sibCampaignId: 51
+2018-09-24 07:54:55.215  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 11, sibCampaignId: 51
+2018-09-24 07:54:55.220  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 11, sibCampaignId: 51
+2018-09-24 07:54:55.253  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 11, sibCampaignId: 47
+2018-09-24 07:54:55.253  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 11, sibCampaignId: 47
+2018-09-24 07:54:55.253  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 9 emails for partnerId: 11, sibCampaignId: 47
+2018-09-24 07:54:55.257  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 11, sibCampaignId: 47
+2018-09-24 07:54:55.353  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 11, sibCampaignId: 52
+2018-09-24 07:54:55.354  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 11, sibCampaignId: 52, URL: https://api-export.sendinblue.com/upload/campaign-52[80]24-09-2018-09-54-541779068831.csv
+2018-09-24 07:54:55.477  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 11, sibCampaignId: 48
+2018-09-24 07:54:55.477  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 11, sibCampaignId: 48
+2018-09-24 07:54:55.477  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 3 emails for partnerId: 11, sibCampaignId: 48
+2018-09-24 07:54:55.481  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 11, sibCampaignId: 48
+2018-09-24 07:54:55.775  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 11, sibCampaignId: 50
+2018-09-24 07:54:55.775  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 11, sibCampaignId: 50
+2018-09-24 07:54:55.776  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 11, sibCampaignId: 50
+2018-09-24 07:54:55.780  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 11, sibCampaignId: 50
+2018-09-24 07:54:56.712  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 11, sibCampaignId: 52
+2018-09-24 07:54:56.712  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 11, sibCampaignId: 52
+2018-09-24 07:54:56.712  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 3 emails for partnerId: 11, sibCampaignId: 52
+2018-09-24 07:54:56.717  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 11, sibCampaignId: 52
+2018-09-24 07:55:48.324  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 11
+2018-09-24 07:55:48.324  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 11
+2018-09-24 07:55:52.399  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 56, partnerId: 11
+2018-09-24 07:55:52.400  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 55, partnerId: 11
+2018-09-24 07:55:52.401  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 54, partnerId: 11
+2018-09-24 07:55:52.402  INFO 16587 --- [nio-5000-exec-1] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 53, partnerId: 11
+2018-09-24 07:55:52.511  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : 0 SIB Reports synced for partnerId: 11
+2018-09-24 07:55:52.546  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 11
+2018-09-24 07:55:52.546  INFO 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 11
+2018-09-24 07:55:53.001 ERROR 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 12
+2018-09-24 07:55:53.401 ERROR 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 27
+2018-09-24 07:55:53.782 ERROR 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 35
+2018-09-24 07:55:54.150 ERROR 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 43
+2018-09-24 07:55:54.507 ERROR 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 49
+2018-09-24 07:55:54.888 ERROR 16587 --- [nio-5000-exec-2] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 11, sibCampaignId: 28
+2018-09-24 07:55:54.888  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : 6 SIB Reports requested for recipient list for partnerId: 11
+2018-09-24 07:55:59.332  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 12
+2018-09-24 07:55:59.332  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 12
+2018-09-24 07:56:01.199  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 40, partnerId: 12
+2018-09-24 07:56:01.200  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 39, partnerId: 12
+2018-09-24 07:56:01.200  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 38, partnerId: 12
+2018-09-24 07:56:01.201  INFO 16587 --- [nio-5000-exec-9] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 36, partnerId: 12
+2018-09-24 07:56:01.301  INFO 16587 --- [nio-5000-exec-9] c.u.e.controllers.FileUploadController   : 6 SIB Reports synced for partnerId: 12
+2018-09-24 07:56:01.351  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 12
+2018-09-24 07:56:01.351  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 12
+2018-09-24 07:56:01.737 ERROR 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 12, sibCampaignId: 8
+2018-09-24 07:56:02.161  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 12, sibCampaignId: 30 with processId: 59
+2018-09-24 07:56:02.526  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 12, sibCampaignId: 30
+2018-09-24 07:56:02.526  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 12, sibCampaignId: 30, URL: https://api-export.sendinblue.com/upload/campaign-30[59]24-09-2018-09-56-02771230894.csv
+2018-09-24 07:56:02.539  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 12, sibCampaignId: 32 with processId: 60
+2018-09-24 07:56:02.871  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 12, sibCampaignId: 32
+2018-09-24 07:56:02.871  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 12, sibCampaignId: 32, URL: https://api-export.sendinblue.com/upload/campaign-32[60]24-09-2018-09-56-021333608999.csv
+2018-09-24 07:56:02.939  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 12, sibCampaignId: 34 with processId: 61
+2018-09-24 07:56:03.290  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 12, sibCampaignId: 34
+2018-09-24 07:56:03.290  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 12, sibCampaignId: 34, URL: https://api-export.sendinblue.com/upload/campaign-34[61]24-09-2018-09-56-02487602934.csv
+2018-09-24 07:56:03.309  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 12, sibCampaignId: 31 with processId: 62
+2018-09-24 07:56:03.417  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 12, sibCampaignId: 30
+2018-09-24 07:56:03.417  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 12, sibCampaignId: 30
+2018-09-24 07:56:03.418  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 6 emails for partnerId: 12, sibCampaignId: 30
+2018-09-24 07:56:03.429  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 12, sibCampaignId: 30
+2018-09-24 07:56:03.665  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 12, sibCampaignId: 31
+2018-09-24 07:56:03.666  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 12, sibCampaignId: 31, URL: https://api-export.sendinblue.com/upload/campaign-31[62]24-09-2018-09-56-031633406510.csv
+2018-09-24 07:56:03.755  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 12, sibCampaignId: 32
+2018-09-24 07:56:03.755  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 12, sibCampaignId: 32
+2018-09-24 07:56:03.755  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 12, sibCampaignId: 32
+2018-09-24 07:56:03.759  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 12, sibCampaignId: 32
+2018-09-24 07:56:03.764  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 12, sibCampaignId: 33 with processId: 63
+2018-09-24 07:56:03.851  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 12, sibCampaignId: 31
+2018-09-24 07:56:03.851  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 12, sibCampaignId: 31
+2018-09-24 07:56:03.851  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 12, sibCampaignId: 31
+2018-09-24 07:56:03.855  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 12, sibCampaignId: 31
+2018-09-24 07:56:04.175  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 12, sibCampaignId: 33
+2018-09-24 07:56:04.176  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 12, sibCampaignId: 33, URL: https://api-export.sendinblue.com/upload/campaign-33[63]24-09-2018-09-56-03771230894.csv
+2018-09-24 07:56:04.228  INFO 16587 --- [nio-5000-exec-3] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 12, sibCampaignId: 35 with processId: 64
+2018-09-24 07:56:04.228  INFO 16587 --- [nio-5000-exec-3] c.u.e.controllers.FileUploadController   : 7 SIB Reports requested for recipient list for partnerId: 12
+2018-09-24 07:56:04.239  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 12, sibCampaignId: 34
+2018-09-24 07:56:04.240  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 12, sibCampaignId: 34
+2018-09-24 07:56:04.240  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 12, sibCampaignId: 34
+2018-09-24 07:56:04.244  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 12, sibCampaignId: 34
+2018-09-24 07:56:04.365  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 12, sibCampaignId: 33
+2018-09-24 07:56:04.365  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 12, sibCampaignId: 33
+2018-09-24 07:56:04.365  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 3 emails for partnerId: 12, sibCampaignId: 33
+2018-09-24 07:56:04.369  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 12, sibCampaignId: 33
+2018-09-24 07:56:04.725  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 12, sibCampaignId: 35
+2018-09-24 07:56:04.725  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 12, sibCampaignId: 35, URL: https://api-export.sendinblue.com/upload/campaign-35[64]24-09-2018-09-56-041906294095.csv
+2018-09-24 07:56:04.916  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 12, sibCampaignId: 35
+2018-09-24 07:56:04.916  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 12, sibCampaignId: 35
+2018-09-24 07:56:04.916  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 2 emails for partnerId: 12, sibCampaignId: 35
+2018-09-24 07:56:04.921  INFO 16587 --- [nio-5000-exec-8] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 12, sibCampaignId: 35
+2018-09-24 07:56:08.342  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : SIB Reports sync requested for partnerId: 13
+2018-09-24 07:56:08.342  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Reports sync requested for partnerId: 13
+2018-09-24 07:56:09.881  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 31, partnerId: 13
+2018-09-24 07:56:09.882  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-24 with sibCampaignId: 30, partnerId: 13
+2018-09-24 07:56:09.888  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 29, partnerId: 13
+2018-09-24 07:56:09.889  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Skipping report with scheduledDate: 2018-09-21 with sibCampaignId: 28, partnerId: 13
+2018-09-24 07:56:09.921  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 7, partnerId: 13
+2018-09-24 07:56:09.921  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 6, partnerId: 13
+2018-09-24 07:56:09.922  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 5, partnerId: 13
+2018-09-24 07:56:09.923  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 4, partnerId: 13
+2018-09-24 07:56:09.924  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 3, partnerId: 13
+2018-09-24 07:56:09.924  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 2, partnerId: 13
+2018-09-24 07:56:09.925  INFO 16587 --- [io-5000-exec-10] c.umai.emailmarketing.analysis.SIBSync   : Campaign name 'We Miss You test' did not match our matchers, so skipping report. sibCampaignId: 1, partnerId: 13
+2018-09-24 07:56:09.953  INFO 16587 --- [io-5000-exec-10] c.u.e.controllers.FileUploadController   : 4 SIB Reports synced for partnerId: 13
+2018-09-24 07:56:09.969  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : SIB Report Recipients requested for partnerId: 13
+2018-09-24 07:56:09.969  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List Request requested for partnerId: 13
+2018-09-24 07:56:10.363  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 13, sibCampaignId: 24 with processId: 23
+2018-09-24 07:56:11.447  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 13, sibCampaignId: 26 with processId: 24
+2018-09-24 07:56:11.823 ERROR 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : Uh oh! SIB Campaign Recipient List requested returned null (meaning NO RECIPIENTS) for partnerId: 13, sibCampaignId: 15
+2018-09-24 07:56:11.923  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 13, sibCampaignId: 26
+2018-09-24 07:56:11.923  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 13, sibCampaignId: 26, URL: https://api-export.sendinblue.com/upload/campaign-26[24]24-09-2018-09-56-111988040941.csv
+2018-09-24 07:56:11.939  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 13, sibCampaignId: 24
+2018-09-24 07:56:11.939  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 13, sibCampaignId: 24, URL: https://api-export.sendinblue.com/upload/campaign-24[23]24-09-2018-09-56-111381497895.csv
+2018-09-24 07:56:12.809  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 13, sibCampaignId: 24
+2018-09-24 07:56:12.809  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 13, sibCampaignId: 24
+2018-09-24 07:56:12.809  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 5 emails for partnerId: 13, sibCampaignId: 24
+2018-09-24 07:56:12.814  INFO 16587 --- [nio-5000-exec-1] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 13, sibCampaignId: 24
+2018-09-24 07:56:12.874  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 13, sibCampaignId: 26
+2018-09-24 07:56:12.874  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 13, sibCampaignId: 26
+2018-09-24 07:56:12.874  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 5 emails for partnerId: 13, sibCampaignId: 26
+2018-09-24 07:56:12.879  INFO 16587 --- [nio-5000-exec-7] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 13, sibCampaignId: 26
+2018-09-24 07:56:13.261  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 13, sibCampaignId: 25 with processId: 25
+2018-09-24 07:56:13.685  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 13, sibCampaignId: 25
+2018-09-24 07:56:13.685  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 13, sibCampaignId: 25, URL: https://api-export.sendinblue.com/upload/campaign-25[25]24-09-2018-09-56-131324915491.csv
+2018-09-24 07:56:13.687  INFO 16587 --- [nio-5000-exec-4] c.umai.emailmarketing.analysis.SIBSync   : SIB Campaign Recipient List requested for partnerId: 13, sibCampaignId: 27 with processId: 26
+2018-09-24 07:56:13.687  INFO 16587 --- [nio-5000-exec-4] c.u.e.controllers.FileUploadController   : 5 SIB Reports requested for recipient list for partnerId: 13
+2018-09-24 07:56:13.884  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 13, sibCampaignId: 25
+2018-09-24 07:56:13.884  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 13, sibCampaignId: 25
+2018-09-24 07:56:13.884  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 6 emails for partnerId: 13, sibCampaignId: 25
+2018-09-24 07:56:13.889  INFO 16587 --- [nio-5000-exec-5] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 13, sibCampaignId: 25
+2018-09-24 07:56:13.979  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File Notify requested for partnerId: 13, sibCampaignId: 27
+2018-09-24 07:56:13.979  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Ready to download Campaign Recipient List File for partnerId: 13, sibCampaignId: 27, URL: https://api-export.sendinblue.com/upload/campaign-27[26]24-09-2018-09-56-13278663662.csv
+2018-09-24 07:56:14.176  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File completed for partnerId: 13, sibCampaignId: 27
+2018-09-24 07:56:14.176  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Download Campaign Recipient List File parsed with CSV values for partnerId: 13, sibCampaignId: 27
+2018-09-24 07:56:14.176  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : Campaign Recipient List File appended 1 emails for partnerId: 13, sibCampaignId: 27
+2018-09-24 07:56:14.181  INFO 16587 --- [nio-5000-exec-6] c.u.e.controllers.FileUploadController   : SUCCESS: Campaign Recipient List successfully updated in DB for partnerId: 13, sibCampaignId: 27
+2018-09-24 07:58:33.680  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : Export Report for all Partners requested between dates: fromDate: 2018-01-01 00:00:00, toDate: 2018-09-21 23:59:59
+2018-09-24 07:58:33.681  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 1, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:39.478  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 76 Successful Reservations found for partnerId: 1, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:39.482  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 2, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:39.498  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 5, campaignId: 3, partnerId: 2
+2018-09-24 07:58:39.561  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 32, campaignId: 3, partnerId: 2
+2018-09-24 07:58:39.566  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 34, campaignId: 3, partnerId: 2
+2018-09-24 07:58:39.617  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 60, campaignId: 3, partnerId: 2
+2018-09-24 07:58:39.621  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 62, campaignId: 3, partnerId: 2
+2018-09-24 07:58:39.671  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 27, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.680  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 30, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.700  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 38, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.722  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 48, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.727  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 50, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.735  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 54, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.752  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 63, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.765  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 69, campaignId: 4, partnerId: 2
+2018-09-24 07:58:39.769  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 4 Successful Reservations found for partnerId: 2, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:39.772  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 3, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:39.879  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 35, campaignId: 5, partnerId: 3
+2018-09-24 07:58:39.989  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 78, campaignId: 5, partnerId: 3
+2018-09-24 07:58:40.136  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 26, campaignId: 6, partnerId: 3
+2018-09-24 07:58:40.194  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 44, campaignId: 6, partnerId: 3
+2018-09-24 07:58:40.311  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 7 Successful Reservations found for partnerId: 3, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:40.313  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 4, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:40.354  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 35, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.380  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 51, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.384  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 53, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.404  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 64, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.408  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 68, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.412  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 70, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.431  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 80, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.434  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 82, campaignId: 7, partnerId: 4
+2018-09-24 07:58:40.452  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 24, campaignId: 8, partnerId: 4
+2018-09-24 07:58:40.484  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 43, campaignId: 8, partnerId: 4
+2018-09-24 07:58:40.503  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 52, campaignId: 8, partnerId: 4
+2018-09-24 07:58:40.518  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 60, campaignId: 8, partnerId: 4
+2018-09-24 07:58:40.522  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 62, campaignId: 8, partnerId: 4
+2018-09-24 07:58:40.537  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 67, campaignId: 8, partnerId: 4
+2018-09-24 07:58:40.569  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 2 Successful Reservations found for partnerId: 4, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:40.569  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 5, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:40.839  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 22, campaignId: 9, partnerId: 5
+2018-09-24 07:58:41.217  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 46, campaignId: 9, partnerId: 5
+2018-09-24 07:58:41.377  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 6 Successful Reservations found for partnerId: 5, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:41.380  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 6, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.025  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 17 Successful Reservations found for partnerId: 6, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.026  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 7, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.034  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 0 Successful Reservations found for partnerId: 7, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.034  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 8, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.196  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 55, campaignId: 14, partnerId: 8
+2018-09-24 07:58:43.202  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 57, campaignId: 14, partnerId: 8
+2018-09-24 07:58:43.214  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 61, campaignId: 14, partnerId: 8
+2018-09-24 07:58:43.226  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 65, campaignId: 14, partnerId: 8
+2018-09-24 07:58:43.232  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 67, campaignId: 14, partnerId: 8
+2018-09-24 07:58:43.245  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 71, campaignId: 14, partnerId: 8
+2018-09-24 07:58:43.365  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 45, campaignId: 15, partnerId: 8
+2018-09-24 07:58:43.376  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 50, campaignId: 15, partnerId: 8
+2018-09-24 07:58:43.444  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 0 Successful Reservations found for partnerId: 8, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.446  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 9, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.470  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 5, campaignId: 16, partnerId: 9
+2018-09-24 07:58:43.511  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 13, campaignId: 16, partnerId: 9
+2018-09-24 07:58:43.586  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 28, campaignId: 16, partnerId: 9
+2018-09-24 07:58:43.591  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 29, campaignId: 16, partnerId: 9
+2018-09-24 07:58:43.618  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 34, campaignId: 16, partnerId: 9
+2018-09-24 07:58:43.623  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 2 Successful Reservations found for partnerId: 9, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.624  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 10, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.640  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 5, campaignId: 17, partnerId: 10
+2018-09-24 07:58:43.655  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 9, campaignId: 17, partnerId: 10
+2018-09-24 07:58:43.665  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 12, campaignId: 17, partnerId: 10
+2018-09-24 07:58:43.669  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 13, campaignId: 17, partnerId: 10
+2018-09-24 07:58:43.675  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 1 Successful Reservations found for partnerId: 10, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.675  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 11, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:43.712  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 12, campaignId: 18, partnerId: 11
+2018-09-24 07:58:43.758  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 27, campaignId: 18, partnerId: 11
+2018-09-24 07:58:43.785  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 35, campaignId: 18, partnerId: 11
+2018-09-24 07:58:43.813  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 43, campaignId: 18, partnerId: 11
+2018-09-24 07:58:43.832  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 49, campaignId: 18, partnerId: 11
+2018-09-24 07:58:43.917  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 28, campaignId: 19, partnerId: 11
+2018-09-24 07:58:43.998  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 4 Successful Reservations found for partnerId: 11, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:44.000  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 12, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:44.029  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 8, campaignId: 20, partnerId: 12
+2018-09-24 07:58:44.272  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 4 Successful Reservations found for partnerId: 12, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:44.273  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Successful Reservations requested for partnerId: 13, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:44.370  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : Parsing email list turned out null. Something fishy! => sibCampaignId: 15, campaignId: 23, partnerId: 13
+2018-09-24 07:58:44.431  INFO 16587 --- [nio-5000-exec-2] c.u.e.analysis.CampaignAnalysis          : 0 Successful Reservations found for partnerId: 13, fromDate: 2018-01-01T00:00, toDate: 2018-09-21T23:59:59
+2018-09-24 07:58:44.630  INFO 16587 --- [nio-5000-exec-2] c.u.e.export.AggregateReportExport       : SUCCESS: Workbook successfully created for Analysis Report
+2018-09-24 07:58:44.638  INFO 16587 --- [nio-5000-exec-2] c.u.e.export.AggregateReportExport       : START: Starting to write workbook response to output stream
+2018-09-24 07:58:44.688  INFO 16587 --- [nio-5000-exec-2] c.u.e.export.AggregateReportExport       : END: Workbook successfully written to output stream
+2018-09-24 07:58:44.693  INFO 16587 --- [nio-5000-exec-2] c.u.e.controllers.FileUploadController   : SUCCESS: Export Report COMPLETED between dates: fromDate: 2018-01-01 00:00:00, toDate: 2018-09-21 23:59:59
